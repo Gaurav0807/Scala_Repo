@@ -1,7 +1,7 @@
 package pract1
 
-
-object BinarySearch {
+object KadaneAlgorithm {
+  
   def main(args: Array[String]): Unit = {
   var arr=Array(-2,-3,4,-1,-2,1,5,-3);
   var n=arr.length;
@@ -30,4 +30,5 @@ object BinarySearch {
   println("Start :-"+start+"End"+end);
   
   }
+  
 }
